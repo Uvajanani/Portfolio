@@ -1,0 +1,425 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.description{
+    padding: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 25px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #8c2cdb;
+    font-size: 20px;
+}
+.logo{
+    width: 200px;
+}
+
+nav ul li a:hover{
+    color: blue;
+}
+.description h1{
+    font-size: 60px;
+    color: #000;
+}
+.description span{
+    color: #8c2cdb;
+}
+.description p{
+    color: #b075e0;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.dis{
+    display: flex;
+}
+.description{
+    flex: 1;
+}
+.user-img{
+    flex: 1;
+}
+.user-img img{
+    width: 500px;
+    height: 400px;
+    border-radius: 50%;
+    padding: 50px 0 80px 0;
+}
+/* --------------------about------------------------- */
+#about{
+    margin: 75px;
+}
+#about h1{
+    color: #8c2cdb;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.user-about{
+    display: flex;
+    justify-content: space-between;
+}
+.user-about img{
+    height: 500px;
+    width: 300px;
+}
+.para{
+    padding: 20px;
+
+}
+.user-about p{
+    color: #000;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.education h2{
+    color: #8c2cdb;
+    font-size: 28px;
+    padding: 10px 0;
+}
+.education ul li{
+    color: #000;
+    list-style: none;
+}
+@media only screen and (max-width: 850px){
+    .dis{
+        display: block;
+    }
+    .user-img img{
+        display: block;
+        margin: auto;
+    }
+    .user-about{
+        display: block;
+    }
+}
+
+.pink{
+    color: #8c2cdb;
+}
+
+ul li{
+    padding-bottom: 15px;
+   
+}
+
+.bold{
+    text-decoration: underline;
+    font-weight: 800;
+    color: #8c2cdb;
+    font-size: 18px;
+}
+.fa-solid{
+    color: #8c2cdb;
+}
+
+#container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skills{
+    margin: 100px 0 100px 0;   
+ 
+}
+#skills h1{
+    color: #8c2cdb;
+    font-size: 40px;
+    text-align: center;
+}
+#skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 28px;
+    margin-bottom: 5px;
+    color: #222;
+    font-size: 16px;
+}
+
+.bar{
+    background: #959595;
+    width: 500px;
+    height: 10px;
+    border-radius: 5px;
+    
+}
+
+.bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.java{
+    background: #8c2cdb;
+    animation: java 1s linear forwards;
+}
+.python{
+    background: #8c2cdb;
+    animation: python 1s linear forwards;
+}
+.c{
+    background: #8c2cdb;
+    animation: c 1s linear forwards;
+}
+.cplus{
+    background: #8c2cdb;
+    animation: cplus 1s linear forwards;
+}
+.html{
+    background: #8c2cdb;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: #8c2cdb;
+    animation: css 1s linear forwards;
+}
+.js{
+    background: #8c2cdb;
+    animation: js 1s linear forwards;
+}
+.react{
+    background: #8c2cdb;
+    animation: react 1s linear forwards;
+}
+
+.java span{
+    border: 3px solid #8c2cdb;
+}
+.python span{
+    border: 3px solid #8c2cdb;
+}
+.c span{
+    border: 3px solid #8c2cdb;
+}
+.cplus span{
+    border: 3px solid #8c2cdb;
+}
+.html span{
+    border: 3px solid #8c2cdb;
+}
+.css span{
+    border: 3px solid #8c2cdb;
+}
+.js span{
+    border: 3px solid #8c2cdb;
+}
+.react span{
+    border: 3px solid #8c2cdb;
+}
+
+@keyframes java{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes python{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes c{
+    100%{
+        width: 62%;
+    }
+}
+@keyframes cplus{
+    100%{
+        width: 54%;
+    }
+}
+@keyframes html{
+    100%{
+        width: 76%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 64%;
+    }
+}
+@keyframes js{
+    100%{
+        width: 35%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 15%;
+    }
+}
+
+
+
+
+/* -------------------------------------Projects-------------------------------- */
+
+#projects h1{
+    color: #8c2cdb;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+
+.samples{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    
+}
+
+.samples img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.samples img:hover{
+    box-shadow: 0 0 30px 0px rgba(130, 56, 221, 0.95);
+}
+.layer h2{
+color: #b075e0;
+text-align: center;
+font-size: 20px;
+margin-top: 15px;
+}
+
+/* -----------------certifications--------------- */
+
+
+
+#certificates h1{
+    color: #8c2cdb;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 180px;
+    
+}
+.fleximg{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 30px;
+    width: 80%;
+    margin: 100px auto 50px;
+}
+.cer-img img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.cer-imgc img{
+    width: 100%;
+    cursor: pointer;
+    height: 295px;
+}
+
+.cer-img img:hover, .cer-imgc img:hover{
+    box-shadow: 0 0 30px 0px rgba(130, 56, 221, 0.95);
+}
+
+
+/* --------------contact----------------------- */
+
+.container2{
+    background-color: #cfa5f2;
+    width: 100%;
+    height: 250px;
+    padding-top: 30px;
+}
+.contact-left{
+    text-align: center;
+}
+
+
+
+.social-icons{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(27, 12, 29);
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a i:hover{
+    color: #714197;
+    transform: translateY(-5px);
+}
+
+.social-icons a i{
+    color: #510c86;
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: #510c86;
+}
+
+.btn.btn2:hover{
+    background: #862fcd;
+}
+
+.contact-left a{
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #cfa5f2;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright i{
+    color: #8c2cdb;
+}
+
+#contact{
+    margin-top: 200px;
+}
+    
